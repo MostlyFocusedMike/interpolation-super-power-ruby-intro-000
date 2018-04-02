@@ -1,8 +1,8 @@
 # Write your #display_rainbow method here
 def display_rainbow(colors)
   msg = ""
-  7.times do |color|
-    msg += "#{colors[color][0].upcase}: #{colors[color]}, "
+  7.times {|c|
+    msg += "#{colors[c][0].upcase}: #{colors[c]}, "
   end
   puts msg
 end
