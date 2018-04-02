@@ -2,5 +2,5 @@
 def display_rainbow(colors)
   msg = ""
   7.times {|c| msg += "#{colors[c][0].upcase}: #{colors[c]}, "}
-  puts msg
+  puts msg + "\n"
 end
